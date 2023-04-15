@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://chaypark.github.io/Lab2_Starter/
+https://chaypark.github.io/sp23-cse110-lab3/
