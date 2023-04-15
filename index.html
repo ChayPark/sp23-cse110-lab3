@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Meeting Minutes - Pomodoro Timer First Brainstorm</title>
     <meta name="description" content="Minutes from the first brainstorming meeting for the Pomodoro Timer project.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -17,10 +21,10 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section id="example">
         <h2>Meeting Section: Brainstorming</h2>
         <h3>Date: April 11, 2023</h3>
-        <h4>Attendance:</h4>
+        <h4 class="grid">Attendance:</h4>
         <ul>
           <li>Chaeyeon Park</li>
           <li>Chay Park</li>
@@ -58,14 +62,22 @@
         </details>
         <details>
           <summary>Video Recording:</summary>
-          <video controls>
-            <source src="video/M30-1422.mp4" type="video/mp4">
-          </video>
+          <div class="video-container"></div>  
+            <video controls>
+              <source src="video/M30-1422.mp4" type="video/mp4">
+            </video>
+          </div>
         </details>
       </section>
       <hr>
       <footer>
         <p>&copy; 2023 Pomodoro Timer Team</p>
+        <p>&copy; 2023 Pomodoro Timer Team</p>
+        <div class="container">
+          <div class="item">Chay</div>
+          <div class="item">Chaeyeon Park</div>
+          <div class="item">Chaejung</div>
+        </div>
       </footer>
     </main>
   </body>
